@@ -1,0 +1,47 @@
+{%set name = "inflection" %}
+{% set version = "0.5.1" %}
+{%set hash_type = "sha256" %}
+{% set hash_val = "1a29730d366e996aaacffb2f1f1cb9593dc38e2ddd30c91250c6dde09ea9b417" %}
+
+package:
+  name: {{ name }}
+  version: {{ version }}
+
+source:
+  fn: {{ name }}-{{ version }}.tar.gz
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  {{ hash_type }}: {{ hash_val }}
+
+build:
+  number: 1
+  script: pip install . --no-deps --no-build-isolation --ignore-installed --no-cache-dir -vv
+
+requirements:
+  host:
+    - python
+    - setuptools
+    - pip
+    - wheel
+  run:
+    - python
+
+test:
+  imports:
+    - {{ name }}
+  requires:
+    - pip
+  commands:
+    - pip check
+
+about:
+  home: https://github.com/jpvanhal/inflection
+  license: MIT
+  license_family: MIT
+  license_file: LICENSE
+  summary: A port of Ruby on Rails inflector to Python
+  dev_url: https://github.com/jpvanhal/inflection
+  doc_url: https://inflection.readthedocs.io/
+
+extra:
+  recipe-maintainers:
+    - pmlandwehr
