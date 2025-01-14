@@ -1,0 +1,71 @@
+{
+  "paths": [
+    {
+      "_path": "Lib/site-packages/inflection-0.5.1.dist-info/INSTALLER",
+      "path_type": "hardlink",
+      "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+      "size_in_bytes": 5
+    },
+    {
+      "_path": "Lib/site-packages/inflection-0.5.1.dist-info/LICENSE",
+      "path_type": "hardlink",
+      "sha256": "9e9f9b4b2e7543ad1486f1328bf9ec50e5a5e2bb9caceb59652496dd61e64133",
+      "size_in_bytes": 1062
+    },
+    {
+      "_path": "Lib/site-packages/inflection-0.5.1.dist-info/METADATA",
+      "path_type": "hardlink",
+      "sha256": "fd2df4ce91aabd34d5c730196b65504fb147758022fc65923e0639c47e472d84",
+      "size_in_bytes": 1779
+    },
+    {
+      "_path": "Lib/site-packages/inflection-0.5.1.dist-info/RECORD",
+      "path_type": "hardlink",
+      "sha256": "8d2faaeb283a9fb9cb04614f87c4656212c729cd3a7a9903e0f69ea3af8736cd",
+      "size_in_bytes": 894
+    },
+    {
+      "_path": "Lib/site-packages/inflection-0.5.1.dist-info/REQUESTED",
+      "path_type": "hardlink",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size_in_bytes": 0
+    },
+    {
+      "_path": "Lib/site-packages/inflection-0.5.1.dist-info/WHEEL",
+      "path_type": "hardlink",
+      "sha256": "89896fe5f5f7e7b3d0c914f6a3ab70d5b37e61c2851472aa07f2f01cee703fe8",
+      "size_in_bytes": 110
+    },
+    {
+      "_path": "Lib/site-packages/inflection-0.5.1.dist-info/direct_url.json",
+      "path_type": "hardlink",
+      "sha256": "02e13f9443062821a623d8188e8c5ec1c34241bfee04ab1830c28819f7488ec4",
+      "size_in_bytes": 118
+    },
+    {
+      "_path": "Lib/site-packages/inflection-0.5.1.dist-info/top_level.txt",
+      "path_type": "hardlink",
+      "sha256": "013daf6116463066276ac35d8f8a096e949d765b58499ddc6461fc063a3bc50a",
+      "size_in_bytes": 11
+    },
+    {
+      "_path": "Lib/site-packages/inflection/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "3f2dfceedae1d0ff7399c238e70da02eb0c0a658e2f649ad1abe6cec36374c3f",
+      "size_in_bytes": 11437
+    },
+    {
+      "_path": "Lib/site-packages/inflection/__pycache__/__init__.cpython-312.pyc",
+      "path_type": "hardlink",
+      "sha256": "b8eb7a8b19f7cfda4e08f037832a63554c6b21bf6bf6b96d01fe5ab52f1b2d2b",
+      "size_in_bytes": 15000
+    },
+    {
+      "_path": "Lib/site-packages/inflection/py.typed",
+      "path_type": "hardlink",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size_in_bytes": 0
+    }
+  ],
+  "paths_version": 1
+}
